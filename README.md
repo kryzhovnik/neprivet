@@ -4,5 +4,5 @@ This is russian translation of classic [www.nohello.com](http://www.nohello.com)
 
 ## Contributors
 
-* Author of the original text: [Brandon High](https://plus.google.com/109027777332815018147)
-* Russian translation: [Andrey Samsonov](https://github.com/kryzhovnik)
+* [Brandon High](https://plus.google.com/109027777332815018147): author of the original text
+* [Andrey Samsonov](https://github.com/kryzhovnik): russian translation
