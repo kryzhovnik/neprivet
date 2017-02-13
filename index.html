@@ -18,96 +18,44 @@
         <meta property="og:image:height" content="321" />
         <meta property="article:tag" content="чат, skype, переписка, привет, сетевой этикет, деловой этикет, правила чата, правила общения в чате">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-          html {
-            font-size: 16px;
-            color: #333;
-            font-family: sans-serif;
-          }
-          body {
-            margin: 0;
-          }
-          h1 {
-            margin: 2rem 0;
-            font-size: 2rem;
-            line-height: 1.125em;
-          }
-          article {
-            width: 50rem;
-            margin: 0 auto;
-            font-size: 1.25rem;
-            line-height: 1.5em;
-          }
-          footer {
-            background: #334;
-            padding: 1rem 0;
-          }
-          footer .row {
-            width: 50rem;
-            margin: 0 auto;
-            font-size: 1rem;
-            color: #ccc;
-          }
-          footer a {
-            color: #aaa;
-          }
-          @media (max-width: 768px) {
-            h1 {
-              font-size: 1.5rem;
-              text-align: center;
-            }
-            article, footer .row {
-              width: 100%;
-              box-sizing: border-box;
-              padding: 0 0.75rem;
-              font-size: 1.25rem;
-            }
-          }
-          .dialog-block {
-            margin: 0 -0.75rem;
-            padding: 0.5rem 0.75rem;
-            background: #f4f4f4;
-            font-size: 0.875em;
-          }
-          .dialog-block > .time::before {
-            content: '[';
-          }
-          .dialog-block > .time::after {
-            content: ']';
-          }
-          .dialog-block > .time {
-            color: #aaa;
-          }
-          .dialog-block > .name {
-            color: #001bff;
-            font-weight: 900;
-          }
-          .dialog-block > .-alter {
-            color: #00007f;
-          }
-          .dialog-block > .comment {
-            color: #777;
-          }
-          #octicon-icon {
-            height: 1.25rem;
-            width: 1.25rem;
-            padding: 0 0.25rem 0 0.5rem;
-            fill: #aaa;
-            vertical-align: bottom;
-          }
-        </style>
+        <link rel="stylesheet" media="screen" href="./css/main.css">
     </head>
     <body>
         <article>
 
 <h1>Пожалуйста, не пишите просто «Привет» в чате</h1>
-
 <div class="dialog-block">
-    <span class="time">12:32:12</span> <span class="name">Вы:</span> Привет</br>
-    <span class="time">12:32:15</span> <span class="name -alter">Ваш коллега:</span> Привет</br>
-    <span class="comment">… Ваш коллега ждет, пока вы формулируете свой вопрос …</span></br>
-    <span class="time">12:34:01</span> <span class="name">Вы:</span> Я сейчас работаю над тем-то и тем-то и хочу сделать то-то…</br>
-    <span class="time">12:35:21</span> <span class="name -alter">Ваш коллега:</span> Ага, можешь сделать так-то…</br>
+    <div class="dialog-line -you">
+        <div class="name">Вы</div>
+        <div class="content">
+          Привет
+          <span class="time">12:32:12</span>  
+        </div>
+    </div>
+    <div class="dialog-line -he">
+        <div class="name">Ваш коллега</div>
+        <div class="content">
+          Привет
+          <span class="time">12:32:15</span>  
+        </div>
+    </div>
+    <div class="dialog-comment">
+      … ждет, пока вы формулируете вопрос …
+    </div>
+    <div class="dialog-line -you">
+        <div class="name">Вы</div>
+        <div class="content">
+          Я сейчас работаю над тем-то и тем-то и хочу сделать то-то…
+          <span class="time">12:34:01</span>  
+        </div>
+    </div>
+    <div class="dialog-line -he">
+        <div class="name">Ваш коллега</div>
+        <div class="content">
+          Ага, можешь сделать так-то…
+          <span class="time">12:35:21</span>  
+        </div>
+    </div>
 </div>
 
 <p>Получается как-будто вы звоните кому-то по телефону, говорите «Привет!» и ставите его на ожидание.</p>
@@ -115,9 +63,20 @@
 <p>Лучше делать так:</p>
 
 <div class="dialog-block">
-    <span class="time">12:32:12</span> <span class="name">Вы:</span> Привет. Я сейчас работаю над тем-то и тем-то и хочу сделать то-то…
-    <br>
-    <span class="time">12:33:32</span> <span class="name -alter">Ваш коллега:</span> Ага, можешь сделать так-то…
+    <div class="dialog-line -you">
+        <div class="name">Вы</div>
+        <div class="content">
+          Привет. Я сейчас работаю над тем-то и тем-то и хочу сделать то-то…
+          <span class="time">12:32:12</span>  
+        </div>
+    </div>
+    <div class="dialog-line -you">
+        <div class="name">Ваш коллега</div>
+        <div class="content">
+          Ага, можешь сделать так-то…
+          <span class="time">12:33:32</span>  
+        </div>
+    </div>
 </div>
 
 <p>Заметьте, что вы получаете обратную связь быстрее и не заставляете собеседника ждать, и он начинает думать над вашим вопросом сразу!</p>
@@ -129,7 +88,13 @@
 <p>Если вам кажется бесцеремонным просто сказать «Привет» и задать вопрос, можете сделать так:</p>
 
 <div class="dialog-block">
-    <span class="time">12:32:12</span> <span class="name">Вы:</span> Привет. Если ты сейчас не занят, я хотел поинтересоваться: могу ли я задать тебе вопрос. Я сейчас работаю над тем-то и тем-то и хочу сделать то-то…
+    <div class="dialog-line -you">
+        <div class="name">Вы</div>
+        <div class="content">
+          Привет. Если ты сейчас не занят, я хотел поинтересоваться: могу ли я задать тебе вопрос. Я сейчас работаю над тем-то и тем-то и хочу сделать то-то…
+          <span class="time">12:32:12</span>  
+        </div>
+    </div>
 </div>
 
 <p>К тому же, когда вы задаете вопрос сразу, открывается возможность асинхронного взаимодействия. Если собеседник недоступен, а вы уйдете до того как он вернется, он по прежнему может ответить на вопрос, вместо того, чтобы смотреть на ваш «Привет» и думать, что же случилось.</p>
