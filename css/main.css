@@ -1,0 +1,160 @@
+html {
+  font-size: 16px;
+  color: #333;
+  font-family: sans-serif;
+}
+body {
+  margin: 0;
+}
+h1 {
+  margin: 2rem 0;
+  font-size: 2rem;
+  line-height: 1.125em;
+}
+article {
+  width: 50rem;
+  margin: 0 auto 1rem auto;
+  font-size: 1.25rem;
+  line-height: 1.5em;
+}
+hr {
+  margin: 3rem;
+  border-bottom: 0;
+  border-top: 1px solid #ccc;
+}
+footer {
+  background: #334;
+  padding: 1rem 0;
+  font-size: 0.875rem;
+}
+footer .row {
+  width: 50rem;
+  margin: 0 auto;
+  color: #ccc;
+}
+footer a {
+  color: #aaa;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  article {
+    font-size: 1.125rem;
+  }
+  article, footer .row {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0 0.75rem;
+  }
+}
+#octicon-icon {
+  height: 1.25rem;
+  width: 1.25rem;
+  padding: 0 0.25rem 0 0.5rem;
+  fill: #aaa;
+  vertical-align: bottom;
+}
+
+.dialog-block {
+  margin: 0 -0.75rem;
+  padding: 1.5rem 1rem;
+  background: #f5fafc;
+}
+.dialog-line {
+  font-size: 0.9rem;
+  line-height: 1.325em;
+  margin-bottom: 0.75rem;
+}
+.dialog-line:last-child {
+  margin-bottom: 0;
+}
+.dialog-line .name {
+  width: 7rem;
+  float: left;
+  padding-top: 0.325rem;
+  font-weight: 700;
+  line-height: 1.1rem;
+  color: #8ca8b4;
+  text-align: right;
+}
+.dialog-line .content {
+  position: relative;
+  padding: 0.337rem 1.5rem;
+  margin: 0 5rem 0 8rem;
+  border-radius: 0.25rem;
+}
+.dialog-line .content::before {
+  position: absolute;
+  display: block;
+  content: '';
+  left: -0.25rem;
+  top: 0.625rem;
+  width: 0; 
+  height: 0; 
+  border-top: 0.25rem solid transparent;
+  border-bottom: 0.25rem solid transparent; 
+  
+  border-right: 0.25rem solid; 
+}
+.dialog-line.-you .content {
+  background: #bfe9f9;
+}
+.dialog-line.-you .content::before {
+  border-right-color: #bfe9f9; 
+}
+.dialog-line.-he .content {
+  background: #dcf2fa;
+}
+.dialog-line.-he .content::before {
+  border-right-color: #dcf2fa; 
+}
+.dialog-line .time {
+  position: absolute;
+  top: 0.325rem;
+  right: -5rem;
+  color: #8CA8B4;
+  font-size: 0.75rem;
+}
+.dialog-comment {
+  color: #8ca8b4;
+  font-size: 0.9rem;
+  text-align: center;
+  margin: 1rem 0
+}
+@media (max-width: 414px) {
+  .dialog-line {
+    margin-bottom: 1rem;
+  }
+  .dialog-line .name {
+    width: auto;
+    float: none;
+    text-align: left;
+    padding-top: 0;
+  }
+  .dialog-line .content {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .dialog-line .content::before {
+    display: none;
+  }
+  .dialog-line .time {
+    right: 0;
+    top: -1rem;
+  }
+  .dialog-comment {
+    margin-bottom: 0.75rem;
+    text-align: left;
+  }
+}
+
+#vk_share {
+  display: inline-block;
+  margin-left: 1rem;
+  line-height: 28px;
+}
+#vk_share img {
+  vertical-align: bottom;
+}
