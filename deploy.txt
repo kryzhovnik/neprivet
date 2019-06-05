@@ -1,1 +1,0 @@
-scp -r * root@neprivet.ru:/var/www/neprivet.ru/
