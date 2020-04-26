@@ -1,4 +1,4 @@
-Host: http://neprivet.ru
+Host: https://neprivet.ru
 
 # Allow crawling of all content
 User-agent: *
