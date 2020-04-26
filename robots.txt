@@ -1,0 +1,5 @@
+Host: https://neprivet.ru
+
+# Allow crawling of all content
+User-agent: *
+Allow: /
