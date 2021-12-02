@@ -1,4 +1,4 @@
-Host: https://neprivet.ru
+Host: https://nometa.uz
 
 # Allow crawling of all content
 User-agent: *
