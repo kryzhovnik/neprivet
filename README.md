@@ -1,6 +1,6 @@
 # Ne Privet
 
-This is Uzbek translation of the classical [www.nohello.com](http://www.nohello.com) page. The translation is hosted on [https://nometa.uz](https://neprivet.ru).
+This is Uzbek translation of the classical NoHello page. The translation is hosted on [https://nometa.uz](https://neprivet.ru).
 
 ## Contributors
 
