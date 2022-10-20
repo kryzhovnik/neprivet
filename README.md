@@ -1,6 +1,6 @@
 # Ne Privet
 
-This is a Russian translation of the classic [www.nohello.com](http://www.nohello.com) page. The translation is hosted on [https://neprivet.com](https://neprivet.ru).
+This is a Russian translation of the classic [www.nohello.com](http://www.nohello.com) page. The translation is hosted on [https://neprivet.com](https://neprivet.com).
 
 ## Contributors
 
