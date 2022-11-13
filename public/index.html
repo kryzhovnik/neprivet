@@ -110,19 +110,6 @@
 <p>Если вы увидели у кого-то в статусе ссылку на эту статью, будьте готовы, что ваш собеседник проигнорирует сообщение с одним «приветом».</p>
 <p>Ссылка на эту страницу: <a href="https://neprivet.com">https://neprivet.com</a></p>
 <p>Суть одной картинкой: <a href="https://neprivet.com/img/bad-good.png">https://neprivet.com/img/bad-good.png</a></p>
-
-<div id="social_links">
-    <div class="fb-like" data-href="https://neprivet.com" data-layout="button_count" data-action="like" data-size="large" data-show-faces="false" data-share="true"></div>
-
-    <div id="vk_share">
-        <!-- Put this script tag to the <head> of your page -->
-        <script type="text/javascript" src="https://vk.com/js/api/share.js?94" charset="windows-1251"></script>
-        <!-- Put this script tag to the place, where the Share button will be -->
-        <script type="text/javascript"><!--
-        document.write(VK.Share.button(false,{type: "custom", text: "<img src=\"https://vk.com/images/share_32.png\" width=\"28\" height=\"28\" />"}));
-        --></script>
-    </div>
-</div>
         </article>
         <footer>
 <div class="row">
@@ -133,16 +120,15 @@
   </a>
 </div>
 
-<div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&version=v2.8&appId=246806635770676";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-LCJ5RGLJ7S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-<!-- Yandex.Metrika counter --><script type="text/javascript" >(function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)}; m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym"); ym(87677630, "init", { clickmap: true, trackLinks: true, accurateTrackBounce: true }); </script><!-- /Yandex.Metrika counter -->
+  gtag('config', 'G-LCJ5RGLJ7S');
+</script>
         </footer>
     </body>
 </html>
