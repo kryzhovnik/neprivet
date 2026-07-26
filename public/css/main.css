@@ -32,6 +32,9 @@ footer .row {
   margin: 0 auto;
   color: #ccc;
 }
+footer .row + .row {
+  margin-top: 0.5rem;
+}
 footer a {
   color: #aaa;
 }
